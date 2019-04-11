@@ -1,0 +1,36 @@
+.Burger {
+    width: 100%;
+    margin: 10px auto;
+    height: 250px;
+    overflow: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    -webkit-box-shadow: 1px 0px 23px 10px rgba(171,171,171,1);
+    -moz-box-shadow: 1px 0px 23px 10px rgba(171,171,171,1);
+    box-shadow: 1px 0px 23px 10px rgba(171,171,171,1);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media (min-width: 1024px) {
+    .Burger {
+        width: 450px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Burger {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .Burger {
+        width: 300px;
+        height: 300px;
+    }
+}
+
